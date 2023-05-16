@@ -1,0 +1,342 @@
+body {
+ background: #E5D4B6;
+}
+body img, body p, body div{
+position: absolute;
+}
+.yellowrectangle {
+  width: 12vw;
+  height: 60vw;
+  background: #F49310;
+  left: 61vw;
+  top: 3vw;
+  transform: rotate(25deg);
+}
+.yellowrectangle:hover {
+  background: #E83D2C;
+  transition: all .1s ease-out;
+}
+.yellowrectangle2 {
+  width: 12vw;
+  height: 35vw;
+  background: #F49310;
+  left: 66vw;
+  top: 3vw;
+  transform: rotate(115deg);
+}
+.yellowrectangle2:hover {
+  background: #008FA8;
+  transition: all .1s ease-out;
+}
+.yellowrectangle2:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.yellowrectangle3 {
+  width: 12vw;
+  height: 15vw;
+  background: #F49310;
+  left: 12vw;
+  top: 26vw;
+  transform: rotate(115deg);
+}
+.yellowrectangle3:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.yellowrectangle3:hover {
+  background: #01853A;
+  transition: all .1s ease-out;
+}
+.yellowrectangle4 {
+  width: 4vw;
+  height: 8vw;
+  background: #F49310;
+  left: 43vw;
+  top: 43vw;
+  transform: rotate(115deg);
+}
+.yellowrectangle4:hover {
+  background: #008FA8;
+  transition: all .1s ease-out;
+}
+.redcircle {
+  width: 16vw;
+  height: 16vw;
+  background: #B01A1B;
+  left: 33vw;
+  top: 16vw;
+  transform: rotate(115deg);
+  border-radius: 100%;
+}
+.redcircle:hover {
+  background: #01853A;
+  transition: all .1s ease-out;
+}
+.redcircle:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.redrectangle {
+  width: 3vw;
+  height: 45vw;
+  background: #E83D2C;
+  left: 29vw;
+  top: 17vw;
+  transform: rotate(25deg);
+}
+.redrectangle:hover {
+  background: #F07E0B;
+  transition: all .1s ease-out;
+}
+.redrectangle2 {
+  width: 6vw;
+  height: 16vw;
+  background: #E83D2C;
+  left: 80vw;
+  top: 44vw;
+  transform: rotate(-5deg);
+}
+.bluerectangle {
+  width: 5vw;
+  height: 10vw;
+  background: #008FA8;
+  left: 36vw;
+  top: 36vw;
+  transform: rotate(25deg);
+}
+.bluerectangle:hover {
+  background: #01853A;
+  transition: all .1s ease-out;
+}
+.bluerectangle:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.bluerectangle2 {
+  width: 8vw;
+  height: 15vw;
+  background: #008FA8;
+  left: 61vw;
+  top: 36vw;
+  transform: rotate(115deg);
+}
+.bluerectangle2:hover {
+  background: #E83D2C;
+  transition: all .1s ease-out;
+}
+.bluerectangle3 {
+  width: 3vw;
+  height: 8vw;
+  background: #008FA8;
+  left: 79vw;
+  top: 50vw;
+  transform: rotate(115deg);
+}
+.bluerectangle4 {
+  width: 4vw;
+  height: 10vw;
+  background: #008FA8;
+  left: 90vw;
+  top: 41vw;
+  transform: rotate(15deg);
+}
+.blackrectangle {
+  width: 6vw;
+  height: 20vw;
+  background: #242422;
+  left: 9vw;
+  top: 20vw;
+  transform: rotate(28deg);
+}
+.blackrectangle:hover {
+  background: #008FA8;
+  transition: all .1s ease-out;
+}
+.blackrectangle:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.blackrectangle2 {
+  width: 6vw;
+  height: 16vw;
+  background: #242422;
+  left: 14vw;
+  top: 2vw;
+  transform: rotate(28deg);
+}
+.blackrectangle2:hover {
+  background: #FBFEFC;
+  transition: all .1s ease-out;
+}
+.blackrectangle3 {
+  width: 3vw;
+  height: 6vw;
+  background: #242422;
+  left: 25vw;
+  top: 5vw;
+  transform: rotate(28deg);
+}
+.blackrectangle4 {
+  width: 3vw;
+  height: 6vw;
+  background: #242422;
+  left: 3vw;
+  top: 26vw;
+  transform: rotate(28deg);
+}
+.blackline {
+  width: 0.2vw;
+  height: 22vw;
+  background: #242422;
+  left: 12vw;
+  top: 26vw;
+  transform: rotate(-48deg);
+}
+.blackline:hover {
+  transform: rotate(100deg);
+  transition: all .1s ease-out;
+}
+.blackline2 {
+  width: 0.2vw;
+  height: 22vw;
+  background: #242422;
+  left: 46vw;
+  top: 37vw;
+  transform: rotate(30deg);
+}
+.blackline2:hover {
+  transform: rotate(130deg);
+  transition: all .1s ease-out;
+}
+.blackline3 {
+  width: 0.2vw;
+  height: 32vw;
+  background: #242422;
+  left: 75vw;
+  top: 33vw;
+  transform: rotate(40deg);
+}
+.blackline3:hover {
+  transform: rotate(100deg);
+  transition: all .1s ease-out;
+}
+.brownrectangle {
+  width: 3vw;
+  height: 8vw;
+  background: #8E1718;
+  left: 18vw;
+  top: 26vw;
+  transform: rotate(28deg);
+}
+.brownrectangle2 {
+  width: 0.7vw;
+  height: 8vw;
+  background: #8E1718;
+  left: 43vw;
+  top: 47vw;
+  transform: rotate(118deg);
+}
+.brownrectangle3 {
+  width: 5vw;
+  height: 8vw;
+  background: #8E1718;
+  left: 39vw;
+  top: 52vw;
+  transform: rotate(118deg);
+}
+.brownrectangle3:hover {
+  background: #E83D2C;
+  transition: all .1s ease-out;
+}
+.brownrectangle4 {
+  width: 2vw;
+  height: 4vw;
+  background: #8E1718;
+  left: 61vw;
+  top: 44vw;
+  transform: rotate(28deg);
+}
+.greenrectangle {
+  width: 3vw;
+  height: 6vw;
+  background: #01853A;
+  left: 64vw;
+  top: 45vw;
+  transform: rotate(28deg);
+}
+.browncube{
+  width: 4vw;
+  height: 4vw;
+  background: #8E1718;
+  left: 43vw;
+  top: 38vw;
+  transform: rotate(58deg);
+}
+.orangerectangle {
+  width: 2vw;
+  height: 20vw;
+  background: #F07E0B;
+  left: 14vw;
+  top: 9vw;
+  transform: rotate(10deg);
+}
+.circle {
+  width: 30vw;
+  height: 30vw;
+  left: 59vw;
+  top: 35vw;
+  transform: rotate(148deg);
+}
+.circle:hover {
+  transform: rotate(90deg);
+  transition: all .1s ease-out;
+}
+.circle:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.circle2 {
+  width: 30vw;
+  height: 30vw;
+  left: 61vw;
+  top: 14vw;
+  transform: rotate(-18deg);
+}
+.circle2:hover {
+  transform: rotate(130deg);
+  transition: all .1s ease-out;
+}
+.circle2:active {
+  transform: scale(2);
+  transition: all .1s ease-out;
+}
+.cir
+.move {
+   animation: move 3s ease infinite;
+ }
+ @keyframes move {
+  0% {top: 12vw;}
+  70% {top: 24vw;}
+ }
+ .move2 {
+    animation: move 3s ease infinite;
+  }
+  @keyframes move2 {
+   0% {top: 3vw;}
+   70% {top: 34vw;}
+  }
+  .move3 {
+     animation: move 2.5s ease infinite;
+   }
+   @keyframes move3 {
+    0% {left: 39vw;}
+    70% {left: 14vw;}
+   }
+   .move4 {
+      animation: move4 2.5s ease infinite;
+    }
+    @keyframes move4 {
+     0% {transform: rotate(20deg);}
+     70% {transform: rotate(90deg);}
+    }
